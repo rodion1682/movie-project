@@ -1,12 +1,14 @@
 import { classNames } from 'shared/lib/classNames/classNames';
-import cls from './SideBar.module.scss';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import cls from './SideBar.module.scss';
 
 interface SideBarProps {
 	className?: string;
 }
 
 export const SideBar = ({ className }: SideBarProps) => {
+	const { t } = useTranslation();
 	const [collapsed, setCollapsed] = useState(false);
 
 	const onToggle = () => {
@@ -18,7 +20,9 @@ export const SideBar = ({ className }: SideBarProps) => {
 				className,
 			])}
 		>
-			<button onClick={onToggle}>toggle</button>
+			<button type="button" onClick={onToggle}>
+				{t('Toggle')}
+			</button>
 		</div>
 	);
 };
