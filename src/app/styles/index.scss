@@ -10,6 +10,10 @@
 	min-height: 100vh;
 }
 
+#webpack-dev-server-client-overlay {
+	display: none !important;
+}
+
 .content-page {
 	display: flex;
 }

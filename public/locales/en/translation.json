@@ -1,5 +1,9 @@
 {
 	"Language": "English",
 	"Test example": "Test example",
-	"Toggle": "Toggle"
+	"Toggle": "Toggle",
+	"Page not found": "Page not found",
+	"An unexpected error appeared": "An unexpected error appeared",
+	"Refresh the page": "Refresh the page",
+	"Throw an Error": "Throw Error"
 }

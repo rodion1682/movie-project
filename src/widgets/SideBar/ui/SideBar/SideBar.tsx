@@ -1,13 +1,13 @@
 import { classNames } from 'shared/lib/classNames/classNames';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import cls from './SideBar.module.scss';
+import cls from './Sidebar.module.scss';
 
-interface SideBarProps {
+interface SidebarProps {
 	className?: string;
 }
 
-export const SideBar = ({ className }: SideBarProps) => {
+export const Sidebar = ({ className }: SidebarProps) => {
 	const { t } = useTranslation();
 	const [collapsed, setCollapsed] = useState(false);
 
@@ -16,11 +16,12 @@ export const SideBar = ({ className }: SideBarProps) => {
 	};
 	return (
 		<div
-			className={classNames(cls.SideBar, { [cls.collapsed]: collapsed }, [
+			data-testid="sidebar"
+			className={classNames(cls.Sidebar, { [cls.collapsed]: collapsed }, [
 				className,
 			])}
 		>
-			<button type="button" onClick={onToggle}>
+			<button data-testid="sidebar-toggle" type="button" onClick={onToggle}>
 				{t('Toggle')}
 			</button>
 		</div>
