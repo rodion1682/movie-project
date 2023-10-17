@@ -3,6 +3,10 @@
   "About us": "About us",
   "An unexpected error appeared": "An unexpected error appeared",
   "Language": "Language",
+  "Login": "Login",
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit": {
+    " Nemo\n\t\t\t\taliquam cumque sequi a praesentium, ullam ratione placeat, nam fugit\n\t\t\t\trecusandae necessitatibus distinctio corporis iusto aspernatur\n\t\t\t\tarchitecto eum, laborum commodi alias": " Nemo\n\t\t\t\taliquam cumque sequi a praesentium, ullam ratione placeat, nam fugit\n\t\t\t\trecusandae necessitatibus distinctio corporis iusto aspernatur\n\t\t\t\tarchitecto eum, laborum commodi alias"
+  },
   "Main page": "Main page",
   "Page not found": "Page not found",
   "Reload the page": "Reload the page",
@@ -10,6 +14,7 @@
   "Throw an Error": "Throw an Error",
   "Toggle": "Toggle",
   "throw error": "throw error",
+  "toggle": "toggle",
   "Главная": "Главная",
   "О сайте": "О сайте"
 }
